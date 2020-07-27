@@ -13,7 +13,7 @@ BS <- function(S, K, r, Si, t){
 
 #TM
 #K=500
-df <- read.csv("C:/Users/Dhillon/Desktop/j/ASP/data_tm_500.csv")
+df <- read.csv("------")
 
 df1 <- subset(df, select = -c(LTP, No..of.contracts, Turnover.in.Lacs, Premium.Turnover.in.Lacs, Open.Int, Change.in.OI))
 
